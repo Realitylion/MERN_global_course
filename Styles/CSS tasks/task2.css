@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
+body {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+#table1, #table1 td {
+    border: 1px black solid;
+    border-radius: 10px;
+}
+#table1 {
+    background-color: rgb(151,211,209);
+    margin: auto;
+    width: 50%;
+}
+#table1 td {
+    font-family: sans-serif;
+    color: black;
+    padding: 0%;
+    text-indent: 2px;
+}
+
+.top-row {
+    font-weight: bold;
+}
+.other-rows {
+    text-align: left;
+}
+
+#table2 {
+    margin: auto;
+    width: 300px;
+}
+#table2 td {
+    height: 40px;
+    border: 2.5px rgb(153,205,50) solid;
+}
