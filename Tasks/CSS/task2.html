@@ -4,7 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Task 2</title>
-    <link rel="stylesheet" href="../../Styles/CSS tasks/task2.css" type="text/css">
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        .container1 {
+            text-align: left;
+        }
+        .vertical-buttons {
+            border: 1px solid black;
+            width: fit-content;
+            padding: 10px 10px 0px 10px;
+        }
+        .vertical-buttons div{
+            padding: 10px;
+            background-color: #add9e6;
+            color: blue;
+            width: 200px;
+        }
+        .vertical-buttons div:hover {
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+        }
+
+        .container2 table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .horizontal-buttons {
+            border: 1px solid black;
+            width: fit-content;
+            padding: 10px 0px 10px 10px;
+        }
+        .horizontal-buttons td {
+            padding: 10px;
+            background-color: lightgrey;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+        .horizontal-buttons td:hover {
+            cursor: pointer;
+            background-color: darkgrey;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>CSS Task 2</h1>
