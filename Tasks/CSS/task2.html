@@ -8,58 +8,36 @@
 </head>
 <body>
     <h1>CSS Task 2</h1>
-    <table id="table1" bordercolor="black">
-        <colgroup>
-            <col span="1" style="width: 40%">
-            <col span="1" style="width: 40%">
-            <col span="1" style="width: 20%">
-        </colgroup>
-        <thead>
-            <tr class="top-row">
-                <td>Firstname</td>
-                <td>Lastname</td>
-                <td>Age</td>
-            </tr>
-        </thead>    
-        <tbody>
-            <tr class="other-rows">
-                <td>Jill</td>
-                <td>Smith</td> 
-                <td>50</td>
-            </tr>
-            <tr class="other-rows">
-                <td>Eve</td>
-                <td>Jackson</td> 
-                <td>94</td>
-            </tr>
-            <tr class="other-rows">
-                <td>John</td>
-                <td>Doe</td> 
-                <td>80</td>
-            </tr>
-        </tbody>
-    </table>  
-    <br />
-    <table id="table2" cellspacing="20px">
-        <colgroup>
-            <col span="1" style="width: 33%">
-            <col span="1" style="width: 33%">
-            <col span="1" style="width: 33%">
-        </colgroup>
+    <table cellspacing="100px">
         <tr>
-            <td style="border-radius: 5px;"></td>
-            <td style="border-radius: 10px;"></td>
-            <td style="border-radius: 15px;"></td>
-        </tr>
-        <tr>
-            <td style="border-radius: 10px;"></td>
-            <td></td>
-            <td style="border-radius: 15px;"></td>
-        </tr>
-        <tr>
-            <td style="border-radius: 50%"></td>
-            <td style="border-radius: 5px;"></td>
-            <td style="border-radius: 5px 15px;"></td>
+            <td>
+                <div class="container1">
+                    <h5 style="text-indent: 20px; font-weight: bold;">Vertical Navigation Bar</h2>
+                    <div class="vertical-buttons">
+                        <div>Home</div>
+                        <div>Java</div>
+                        <div>CSS</div>
+                        <div>HTML</div>
+                        <div>Bootstrap</div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="container2">
+                    <h5 style="text-indent: 20px; font-weight: bold;">Horizontal Navigation Bar</h2>
+                    <div class="horizontal-buttons">
+                        <table>
+                            <tr>
+                                <td>Home</td>
+                                <td>Java</td>
+                                <td>HTML</td>
+                                <td>CSS</td>
+                                <td style="border-right: 0px;">Bootstrap</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
         </tr>
     </table>
 </body>
