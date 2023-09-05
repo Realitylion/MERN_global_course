@@ -6,12 +6,16 @@ body {
     font-family: "Lato", sans-serif;
     background-color: #053B50;
 }
+table, td {
+    border: 1px white solid;
+    border-collapse: collapse;
+}
 table {
     margin: auto;
     width: 50%;
-    border-collapse: collapse;
 }
 td {
+    background-color: rgb(151,211,209);
     font-family: sans-serif;
     color: black;
     padding: 0%;
@@ -20,7 +24,6 @@ td {
 .top-row {
     font-weight: bold;
 }
-
 .other-rows {
     text-align: left;
 }
