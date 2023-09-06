@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 5</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        table {
+            padding-top: 20px;
+            text-align: left;
+            display: flex;  
+            font-size: smaller;
+        }
+        td {
+            padding: 0%;
+            height: 25px;
+        }
+        p {
+            font-size: smaller;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            background-color: rgb(217,218,62);
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            border: 1px solid black;
+            margin: auto;
+            width: 25%;
+            height: 300px;
+            padding: 20px;
+        }
+        .table {
+            width: 60%;
+        }
+        .text {
+            text-align: left;
+            color: rgb(137,0,131);
+        }
+        .heading {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .white-area {
+            text-indent: 5px;
+            background-color: white;
+            color: blue;
+            width: 110px;
+        }
+        .white-area:hover {
+            background-color: rgb(232, 232, 232);
+            cursor: pointer;
+        }
+        .black-area {
+            background-color: black;
+            width: 15px;
+        }
+        .spacing {
+            height: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Task 5</h2>
+    <div class="container">
+        <div class="table">
+            <table cellspacing="0">
+                <tr>
+                    <td class="white-area">Home page</td>
+                    <td class="black-area"></td>
+                </tr>
+                <tr><td class="spacing"></td></tr>
+                <tr>
+                    <td class="white-area">Musings</td>
+                    <td class="black-area"></td>
+                </tr>
+                <tr><td class="spacing"></td></tr>
+                <tr>
+                    <td class="white-area">My town</td>
+                    <td class="black-area"></td>
+                </tr>
+                <tr><td class="spacing"></td></tr>
+                <tr>
+                    <td class="white-area">Links</td>
+                    <td class="black-area"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="text">
+            <div class="heading">My first styled page</div>
+            <p>Welcome to my styled page!</p>
+            <p>It lacks images, but atleast it has style. And it has links, even if they don't go anywhere...</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <hr style="border-top: 1px dotted rgb(137,0,131); border-bottom: 0px;">
+            <p><i>Made 5 April 2004<br/>by myself</i></p>
+        </div>
+    </div>
+</body>
+</html>
