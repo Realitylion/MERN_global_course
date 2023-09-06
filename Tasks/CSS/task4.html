@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+            margin: 0%;
+        }
+        table {
+            text-align: left;
+            display: flex;  
+            width: 10%;
+        }
+        td {
+            padding: 0%;
+            height: 45px;
+            width: 45px;
+        }
+        button {
+            border: 0px;
+            width: 40px;
+            height: 40px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        button:hover {
+            cursor: pointer;
+            width: 42px;
+            height: 42px;
+        }
+        p {
+            font-size: smaller;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            column-gap: 20px;
+            border: 1px solid black;
+            margin: auto;
+            width: 30%;
+            height: 300px;
+            padding-top: 20px;
+        }
+        .text {
+            text-align: left;
+        }
+        .heading {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Task 4</h2>
+    <div class="container">
+        <table cellspacing="0">
+            <tr>
+                <td><button style="background-color: rgb(4,169,109);"></button></td>
+            </tr>
+            <tr>
+                <td><button style="background-color: rgb(33, 150, 243);"></button></td>
+            </tr>
+            <tr>
+                <td><button style="background-color: rgb(244, 66, 54);"></button></td>
+            </tr>
+            <tr>
+                <td><button style="background-color: rgb(85, 85, 85);"></button></td>
+            </tr>
+        </table>
+        <div class="text">
+            <div class="heading">Hoverable Sidenav Buttons</div>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </div>
+</body>
+</html>
